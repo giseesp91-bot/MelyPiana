@@ -7,7 +7,7 @@ const cors = require("cors");
 const mercadopago = require("mercadopago");
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: 'https://melypiana.netlify.app' }));
 app.use(express.json());
 
 // 🔐 reemplazá esto después con tu access token real
