@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 
 console.log("TOKEN:", process.env.MP_ACCESS_TOKEN);
 
